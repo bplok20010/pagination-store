@@ -1,0 +1,39 @@
+{
+    "name": "pagination-store",
+    "version": "1.0.0",
+    "description": "生成pagination数据对象",
+    "main": "lib/index.js",
+    "scripts": {
+        "start": "transform-es src -d lib -w -c",
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/bplok20010/pagination-store.git"
+    },
+    "keywords": [
+        "pagination",
+        "store"
+    ],
+    "author": "nobo.zhou@foxmail.com",
+    "license": "MIT",
+    "files": [
+        "lib",
+        "*.md"
+    ],
+    "bugs": {
+        "url": "https://github.com/bplok20010/pagination-store/issues"
+    },
+    "homepage": "https://github.com/bplok20010/pagination-store#readme",
+    "devDependencies": {
+        "@babel/plugin-transform-modules-amd": "^7.1.0",
+        "@babel/plugin-transform-modules-commonjs": "^7.1.0",
+        "@babel/plugin-transform-modules-systemjs": "^7.1.3",
+        "@babel/plugin-transform-modules-umd": "^7.1.0",
+        "transform-es": "^2.2.9"
+    },
+    "dependencies": {
+        "@babel/runtime": "^7.0.0",
+        "@babel/runtime-corejs2": "^7.0.0"
+    }
+}
