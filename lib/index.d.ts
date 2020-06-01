@@ -4,13 +4,14 @@ export interface PaginationOptions {
     pageSize?: number;
     pageRange?: number;
 }
-interface PData {
+export interface PData {
     page: number | null;
     isCurrent?: boolean;
     isPreviousMore?: boolean;
     isNextMore?: boolean;
 }
 export declare function getPageList(options: PaginationOptions): PData[];
+export declare const version = "%VERSION%";
 export declare class PaginationStore {
     total: number;
     current: number;

@@ -2,8 +2,8 @@
 	"compilerOptions": {
 		"outDir": "lib",
 		"declaration": true,
-		"module": "commonjs",
-		"target": "es5",
+		"module": "esnext",
+		"target": "esnext",
 		"lib": ["es6", "dom"],
 		"jsx": "react",
 		"allowSyntheticDefaultImports": true,

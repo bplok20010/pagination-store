@@ -5,7 +5,7 @@ export interface PaginationOptions {
 	pageRange?: number;
 }
 
-interface PData {
+export interface PData {
 	page: number | null;
 	isCurrent?: boolean;
 	isPreviousMore?: boolean;
@@ -16,6 +16,8 @@ export function getPageList(options: PaginationOptions) {
 	const store = new PaginationStore(options);
 	return store.getCurrentList();
 }
+
+export const version = "%VERSION%";
 
 export class PaginationStore {
 	total: number;
